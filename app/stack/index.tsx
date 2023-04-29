@@ -1,16 +1,18 @@
 import { Link } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function Page() {
   return (
-    <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>Stack</Text>
-        <Link href="/stack/second" style={styles.subtitle}>
-          Next
-        </Link>
+    <ScrollView contentInsetAdjustmentBehavior="automatic" style={{ flex: 1 }}>
+      <View style={styles.container}>
+        <View style={styles.main}>
+          <Text style={styles.title}>Stack</Text>
+          <Link href="/stack/second" style={styles.subtitle}>
+            Next
+          </Link>
+        </View>
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
