@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "expo-router-bottom-sheet-demo",
+    "slug": "expo-router-bottom-sheet-demo"
+  }
+}
