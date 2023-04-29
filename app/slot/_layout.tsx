@@ -9,7 +9,7 @@ export const unstable_settings = {
 export default function Layout() {
   return (
     // You can wrap the navigator with any custom views.
-    <SafeAreaView>
+    <View style={{ flex: 1 }}>
       {/* The custom navigator context must wrap the CustomTabBar so it has access to the Slot state. */}
       <Navigator>
         {/* A custom UI for our navigator. */}
@@ -17,7 +17,7 @@ export default function Layout() {
         {/* The selected contents render here. */}
         <Slot />
       </Navigator>
-    </SafeAreaView>
+    </View>
   );
 }
 

@@ -6,6 +6,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@bacons/expo-router-top-tabs": "^0.1.0",
     "@gorhom/bottom-sheet": "^4.4.5",
     "@react-navigation/drawer": "^6.6.2",
     "@react-navigation/material-bottom-tabs": "^6.2.15",
