@@ -1,9 +1,11 @@
+import { Slot } from "expo-router";
+
 export const unstable_settings = {
   initialRouteName: "index",
 };
 
 export default function Layout() {
-  if (typeof window === "undefined") return null;
+  if (typeof window === "undefined") return <Slot />;
   const { BottomSheet } =
     require("../../layouts/bottom-sheet") as typeof import("../../layouts/bottom-sheet");
 

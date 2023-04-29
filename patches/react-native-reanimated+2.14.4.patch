@@ -1,0 +1,26 @@
+diff --git a/node_modules/react-native-reanimated/lib/reanimated1/core/AnimatedNode.js b/node_modules/react-native-reanimated/lib/reanimated1/core/AnimatedNode.js
+index d7892d8..beba4ac 100644
+--- a/node_modules/react-native-reanimated/lib/reanimated1/core/AnimatedNode.js
++++ b/node_modules/react-native-reanimated/lib/reanimated1/core/AnimatedNode.js
+@@ -77,7 +77,7 @@ function runPropUpdates() {
+ }
+ 
+ const scheduleUpdates =
+-  Platform.OS === 'web' ? requestAnimationFrame : setImmediate;
++  Platform.OS === 'web' ? typeof window ==='undefined' ? () => {} : requestAnimationFrame : setImmediate;
+ 
+ export default class AnimatedNode {
+   __nodeID;
+diff --git a/node_modules/react-native-reanimated/lib/reanimated2/ViewDescriptorsSet.js b/node_modules/react-native-reanimated/lib/reanimated2/ViewDescriptorsSet.js
+index 1f9884d..6b997cf 100644
+--- a/node_modules/react-native-reanimated/lib/reanimated2/ViewDescriptorsSet.js
++++ b/node_modules/react-native-reanimated/lib/reanimated2/ViewDescriptorsSet.js
+@@ -1,7 +1,7 @@
+ import { useRef } from 'react';
+ import { makeMutable } from './core';
+ import { shouldBeUseWeb } from './PlatformChecker';
+-const scheduleUpdates = shouldBeUseWeb() ? requestAnimationFrame : setImmediate;
++const scheduleUpdates = shouldBeUseWeb() ? typeof window === 'undefined' ? function() {} : requestAnimationFrame : setImmediate;
+ export function makeViewDescriptorsSet() {
+     const ref = useRef(null);
+     if (ref.current === null) {
