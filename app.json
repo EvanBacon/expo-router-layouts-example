@@ -4,7 +4,7 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "expo-router-bottom-sheet-demo",
-    "slug": "expo-router-bottom-sheet-demo"
+    "name": "expo-router-layouts",
+    "slug": "expo-router-layouts"
   }
 }
