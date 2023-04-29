@@ -1,10 +1,12 @@
-import { BottomSheet } from "../../layouts/bottom-sheet";
-
 export const unstable_settings = {
   initialRouteName: "index",
 };
 
 export default function Layout() {
+  if (typeof window === "undefined") return null;
+  const { BottomSheet } =
+    require("../../layouts/bottom-sheet") as typeof import("../../layouts/bottom-sheet");
+
   return (
     <BottomSheet
       screenOptions={
