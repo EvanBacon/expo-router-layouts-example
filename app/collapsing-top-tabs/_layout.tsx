@@ -42,6 +42,18 @@ export default function Layout() {
           </View>
         </View>
       </TopTabs.Header>
+      <TopTabs.Screen
+        name="index"
+        options={{
+          title: "Posts",
+        }}
+      />
+      <TopTabs.Screen
+        name="second"
+        options={{
+          title: "Likes",
+        }}
+      />
     </TopTabs>
   );
 }

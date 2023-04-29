@@ -7,14 +7,14 @@ export default function Page() {
     <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.title}>Drawer</Text>
-        <Link href="/bottom-sheet/second" style={styles.subtitle}>
+        <Link href="/drawer/second" style={styles.subtitle}>
           Next
         </Link>
         <Text
           onPress={() => {
             navigation.openDrawer();
           }}
-          style={styles.title}
+          style={styles.subtitle}
         >
           Open
         </Text>

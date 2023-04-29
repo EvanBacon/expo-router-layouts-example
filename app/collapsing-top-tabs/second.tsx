@@ -8,7 +8,7 @@ export default function Page() {
     <Animated.ScrollView {...scroll}>
       <View style={styles.container}>
         <View style={styles.main}>
-          <Text style={styles.title}>Second Page</Text>
+          <Text style={styles.title}>Likes</Text>
           <Link href="/collapsing-top-tabs/" style={styles.subtitle}>
             Back
           </Link>
