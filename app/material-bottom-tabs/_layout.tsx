@@ -1,5 +1,7 @@
-import { MaterialBottomTabs } from "../../layouts/material-bottom-tabs";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
+
+import { MaterialBottomTabs } from "../../layouts/material-bottom-tabs";
+
 export const unstable_settings = {
   initialRouteName: "index",
 };
