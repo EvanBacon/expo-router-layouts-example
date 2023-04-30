@@ -2,7 +2,8 @@
   "expo": {
     "scheme": "acme",
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "output": "static"
     },
     "name": "expo-router-layouts",
     "slug": "expo-router-layouts"

@@ -6,7 +6,7 @@ export default function Page() {
     <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.title}>Custom</Text>
-        <Link href="/material-top-tabs/second" style={styles.subtitle}>
+        <Link href="/slot/second" style={styles.subtitle}>
           Next
         </Link>
       </View>
