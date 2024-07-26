@@ -1172,10 +1172,10 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
-"@bacons/expo-router-top-tabs@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@bacons/expo-router-top-tabs/-/expo-router-top-tabs-0.1.0.tgz#bc1cc0b5b72db098c62bb2b0b890aae54e25de97"
-  integrity sha512-ZuxVUxbmNgUkoy9K6JPovFfFP5jc/c0O8SWpsfhEIU5vOL4rI7HVeOcksg1fZqh9T3Kf1jova3JM1HBvxxPv9w==
+"@bacons/expo-router-top-tabs@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bacons/expo-router-top-tabs/-/expo-router-top-tabs-1.0.0.tgz#3318752adf4b1c8d0749b4284caafc6ffba59ae7"
+  integrity sha512-F43nwPRzmQFNRCGgiPB2cXd3DgTcv09z9mLYidcxlPajp+s6T1pHG8peP6UgMNRtZpqOwX+/5SZ++mv80LsTjw==
   dependencies:
     "@react-navigation/material-top-tabs" "6.3.0"
     react-native-collapsible-tab-view "2.0.2"
@@ -5979,10 +5979,10 @@ react-native-screens@3.31.1:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
 
-react-native-tab-view@^3.3.0, react-native-tab-view@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-3.5.1.tgz#2ad454afc0e186b43ea8b89053f39180d480d48b"
-  integrity sha512-qdrS5t+AEhfuKQyuCXkwHu4IVppkuTvzWWlkSZKrPaSkjjIa32xrsGxt1UW9YDdro2w4AMw5hKn1hFmg/5mvzA==
+react-native-tab-view@^3.3.0:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-3.5.2.tgz#2789b8af6148b16835869566bf13dc3b0e6c1b46"
+  integrity sha512-nE5WqjbeEPsWQx4mtz81QGVvgHRhujTNIIZiMCx3Bj6CBFDafbk7XZp9ocmtzXUQaZ4bhtVS43R4FIiR4LboJw==
   dependencies:
     use-latest-callback "^0.1.5"
 
