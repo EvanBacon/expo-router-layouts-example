@@ -5,6 +5,14 @@
       "bundler": "metro",
       "output": "static"
     },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://a"
+        }
+      ]
+    ],
     "name": "expo-router-layouts",
     "slug": "expo-router-layouts"
   }
